@@ -23,14 +23,16 @@
 # ## Testing
 # Run the test file by executing `python test_single_number.py`. 
 
+
 def single_number(arr):
-    
+
     n = []
     for x in arr:
         n.append(arr.count(x))
     for i in range(len(n)):
         if n[i] == 1:
             return arr[i]
+
 
 
 if __name__ == '__main__':
